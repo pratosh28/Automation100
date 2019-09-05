@@ -8,6 +8,7 @@ Library  Collections
 
 *** Test Cases ***
 TC_004 Declaring Variables
+    log to console  Starting test 
     : FOR  ${i}  IN RANGE  1  5
     \  log to console  ${i}
 
